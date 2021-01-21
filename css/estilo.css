@@ -1,0 +1,176 @@
+/* Landing page
+Cliente: Gazelle
+Diseño: Adriana Olguin
+Programación: TripleW.site
+Fecha: 25 Febrero 2020
+Verisón: 1.0
+*/
+body{
+	margin:0;
+	padding:0;
+	color: #1d1d1b;
+	font-family: 'Montserrat' !important;
+}
+#cabeza{
+	background-color:#fff;
+}
+#esc-slide{}
+.grales{
+	width: 100%;
+	float: left;
+}
+.datos-top{
+	background-color: #1D1D1B;
+	color: #fff;
+}
+.datos-top a{
+	color: #fff;
+}
+.datos-top a:hover{
+	color: #F8B133;
+	text-decoration: none;
+}
+.color-blanco{
+	color: #fff;
+}
+.enlace-blanco{
+	color: #fff !important;
+}
+.enlace-blanco:hover{
+	color: #F8B133 !important;
+	text-decoration: none !important;
+}
+.color-amarillo{
+	color: #F8B133;
+}
+.bg-amarillo{
+	background-color: #F8B133;
+}
+.bg-negro{
+	background-color: #1D1D1B;
+}
+.datos-head{
+	margin: 0;
+}
+.datos-head a{
+	margin: 0 20px;
+}
+.datos-head li{
+	list-style: none;
+	float: left;
+	margin: 0 20px;
+}
+#cont-gral{
+	background-image: url(https://gazellemedia.mx/imagenes/bg-gazelle.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.img-logo{
+	width: 140px;
+}
+.el-formu{
+	background-color: #f9fafc;
+	-webkit-box-shadow: 0 0 4px 1px #C4C4C4;
+	box-shadow: 0 0 4px 1px #C4C4C4;
+}
+h1, h2, h3, h4, h5, h6{
+	color: #f9b233;
+}
+.color-amarillo{
+	color: #f9b233;
+}
+.form-control{
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	border-bottom: 1px solid #1d1d1d;
+}
+select{
+	border: none !important;
+	border-radius: 0 !important;
+	background-color: transparent !important;
+	border-bottom: 1px solid #1d1d1d !important;
+}
+#pie{
+	background-image: url(../imagenes/bg-btns.png);
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+.bg-elamarillo{
+	background-image: url(../imagenes/bg-btns.png);
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+.bg-btns{
+	background-image: url(../imagenes/bg-btns.png);
+}
+.btn{
+	border-radius: 0;
+	border:0;
+	color: #1d1d1d;
+	padding: 5px 30px;
+}
+.enlace-negro{
+	color: #1d1d1d;
+	font-weight: bold;
+}
+.enlace-negro:hover{
+	color: #1d1d1d;
+	text-decoration: none;
+	font-weight: bold;
+}
+.serviciosh{}
+.serviciosh li{
+	list-style: none;
+	background: url("../imagenes/estiloli.png") 0 10px no-repeat;
+	padding: 0 0 5px 15px;
+	margin-bottom: 15px;
+}
+.font25{
+	font-size: 25px;
+}
+.font19{
+	font-size: 19px;
+}
+.font24{
+	font-size: 24px;
+}
+.navbar {
+    width: 100%;
+}
+.navbar-light .navbar-toggler {
+    float: right;
+}
+/******************* RESPONSIVO ************************/
+@media screen and (max-width: 1190px) {
+	.navbar-toggler-icon{
+		display: none !important;
+	}
+}
+@media screen and (max-width: 768px) {
+	.navbar-toggler-icon{
+		display: none !important;
+	}	
+}
+@media screen and (max-width: 767px) {
+	.navbar-toggler-icon{
+		display: none !important;
+	}
+}
+@media screen and (max-width: 600px) {
+	.navbar-toggler-icon{
+		display: block !important;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.navbar-toggler-icon{
+		display: block !important;
+	}
+}
+@media screen and (max-width: 400px) {
+	.navbar-toggler-icon{
+		display: block !important;
+	}
+}
